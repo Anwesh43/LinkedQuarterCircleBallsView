@@ -211,4 +211,12 @@ class QuarterCircleBallsView(ctx : Context) : View(ctx) {
             }
         }
     }
+
+    companion object {
+        fun create(activity : Activity) : QuarterCircleBallsView {
+            val view : QuarterCircleBallsView = QuarterCircleBallsView(activity)
+            activity.setContentView(view)
+            return view
+        }
+    }
 }
