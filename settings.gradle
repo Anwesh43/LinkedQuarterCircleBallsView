@@ -1,0 +1,3 @@
+include ':quartercircleballsview'
+include ':app'
+rootProject.name = "LinkedQuarterCircleBallsView"
